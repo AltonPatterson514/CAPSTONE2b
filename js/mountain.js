@@ -49,7 +49,7 @@ async function getSunsetForMountain(lat, lng) {
                 <td style="padding: 8px;">
                   ${
                     mountain.img
-                      ? `<img src="../images/${mountain.img}" alt="${mountain.name}" style="max-width: 100%; height: auto;" />`
+                      ? `<img src="./images/${mountain.img}" alt="${mountain.name}" style="max-width: 100%; height: auto;" />`
                       : "N/A"
                   }
                 </td>
