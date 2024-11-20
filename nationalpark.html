@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Park Search</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/style2.css">
+    <!-- Font Awesome Link -->
+    <script src="https://kit.fontawesome.com/e038534fdb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar" role="navigation" aria-label="Main navigation"></nav>
+        <div class="navbar__container">
+            <a href="/" id="navbar-logo">EXPLORE OUTDOORS</a>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/mountains.html" class="navbar__links">Mountains</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/nationalpark.html" class="navbar__links">National Parks</a>
+                </li>
+                <li class="navbar__btn mobile">
+                    <a href="/signup.html" class="navbar__links">Sign Up</a>
+                </li>
+            
+            </ul>
+           
+            
+
+<div class="navbar__btn desktop">
+    <a href="/signup.html" class="button"> Sign Up</a>
+</div>
+
+<button 
+class="navbar__toggle" 
+id="mobile-menu" 
+aria-label="Toggle Navigation" 
+aria-expanded=""
+false 
+>
+<span class="fa-sharp fa-solid fa-bars"></span>
+</button>
+  </div>
+    </header>
+    <!-- Hero Section -->
+     <main>
+        <section class="nationalparkchart">
+            <div class="hero__container">
+                <h1>Find a National Park</h1>
+
+                <!-- Dropdowns for location and park type -->
+                <select id="location-dropdown">
+                    <option value="">Select Location...</option>
+                </select>
+                <select id="park-type-dropdown">
+                    <option value="">Select Park Type...</option>
+                </select>
+            
+                <!-- Buttons for search, view all, and clear results -->
+                <button id="search-button">Search Parks</button>
+                <button id="view-all-button">View All Parks</button>
+                <button id="clear-results-button">Clear Results</button>
+            
+                <!-- Container to display search results -->
+                <div id="results"></div>
+            
+                <!-- JavaScript files for data and functionality -->
+                <script src="./js/locationdata.js"></script>
+                <script src="./js/parktypedata.js"></script>
+                <script src="./js/nationalparkdata.js"></script>
+                <script src="./js/national_park.js"></script>
+            </body>
+            </div>
+
+         </div>
+
+        </section>
+
+
+        <div class="hero__image">
+            <img 
+            id="hero-img"
+            src="images/undraw_Art_re_vj2w (1).png" alt="">
+         </div>
+
+
+        <!-- Rotating Logos -->
+<div class="rotating-logos">
+    <div class="rotating-logos__track">
+        <span class="logo-text">OUTDOORS</span>
+        <span class="logo-text">NATURE</span>
+        <span class="logo-text">FORESTS</span>
+        <span class="logo-text">WILDLIFE</span>
+        <span class="logo-text">FREEDOM</span>
+        <span class="logo-text">EXPLORE</span>
+        <span class="logo-text">FAMILY</span>
+    </div>
+</div>
+       <!-- Why Choose Us Section -->
+
+ <section class="why-choose-us">
+    <div class="container">
+        <h2>What Our World Offers</h2>
+      <p class="intro-text">Discover More Of The Great Outdoors</p>
+        <div class="features-grid">
+            <div class="feature-item">
+                <i class="fa-solid fa-tree icon"></i>
+<h3>Why National Forests?</h3>
+<p>National Forests and Grasslands, managed by the USDA Forest Service, host more than 170 million visits and pump $13.5 billion into our economy each year, sustaining nearly 223,000 jobs in gateway communities.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <i class="fa-solid fa-tree icon"></i>
+    <h3>Overview</h3>
+    <p>National Forests and Grasslands provide Americans with 193 million spectacular acres of wildlands.
+
+        More than 9,000 miles of scenic byways to drive
+        Almost 150,000 miles of trails to hike
+        More than 4,400 miles of wild and scenic rivers to float
+        At least 5,100 campgrounds in which to pitch our tents
+        And 328 natural pools to swim in
+        All this and the chance to see elk and bear, ducks and deer, trout and trees, thousands of species of plants, and billions of stars in a midnight sky. </p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <i class="fa-solid fa-tree icon"></i>
+        <h3>NATIONAL FOREST FOUNDATION MISSION</h3>
+        <p>The National Forest Foundation, chartered by Congress, engages Americans in community-based and national programs that promote the health and public enjoyment of the 193-million-acre National Forest System, and administers private gifts of funds and land for the benefit of the National Forests.        </p>
+                    </div>
+                    <div class="features-grid">
+                        <div class="feature-item">
+                            <i class="fa-solid fa-tree icon"></i>
+            <h3>Be Active!</h3>
+            <p>RESTORING THE COLUMBIA RIVER GORGE NATIONAL SCENIC AREA, With over 36,000 hours of volunteer work and the support of 324 donors in over 28 states, we are proud to say that less than a decade later, nearly every mile of trail closed after the fire has been reopened.</p>
+                        </div>
+        </div>
+    </div>
+</section>
+     </main>
+    <script> src="app.js" </script>
+    
+</body>
+</html>
